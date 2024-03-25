@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Reservation request</h1>
+        <form>
+            <fieldset>
+                <legend>General Inormation</legend>
+                <label for="text">Arrival date:</label>
+                <input type="text" placeholder="12/29/2016"> <span style="color: red;">Arrival date is invalid </span> 
+                <br></br>
+                <label for="text">Nights:</label>
+                <input type="text" placeholder="three" class="nana"> <span class="reng">Nights must be a number</span> <br></br>
+                <label for="text">Adults:</label>
+                <label for="select" class="kass"></label> 
+                <select name="select" id="select">
+                    <option value="">1</option>
+                </select>
+                <br></br>
+                <label for="text">Children:</label>
+                <label for="select" class="hass"></label> 
+                <select>
+                    <option value="" class="dass">0</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="text">Room type:</label>
+                <input type="radio" name="" id="">  
+                <label class="cass">Standart</label>     
+                <input type="radio" name="a" id="ba">
+                <label class="sssa">Business</label>
+                <input type="radio" name="b" id="">
+                <label class="ssa">Suite</label> <br></br>
+                <label for="text">Bed type:</label>
+                <input type="radio" name="" id="">
+                <label class="tass">King</label>
+                <input type="radio" name="" id="">
+                <label class="bass">Double Double</label> <br></br>
+                <input type="checkbox" name="c" id="">
+                <label class="ssaa">Smoking</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="text">Name:</label>
+                <input type="text" class="dass"> <span>Name is required</span> <br></br>
+                <label for="text">Email:</label>
+                <input type="text" placeholder="graceyahoo.com" class="yass"> <span>Email address is invalid</span> <br></br>
+                <label for="text">Phone:</label>
+                <input type="text" placeholder="123-456-789" class="fass"> <span>Phone number is invalid</span>
+
+            </fieldset>
+
+                    <button type="submit " style="margin-left: 30px; margin-top: 20px;" id="dadas">Sumbit Reservation</button>
+                    <button type="submit" style="margin-left: 42px;">Clear</button>
+                </form>
+    </div>
+</body>
+</html>
